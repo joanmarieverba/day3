@@ -1,0 +1,51 @@
+h4 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+
+.menu li {
+	float:left-horizontal;
+	display: inline-block;
+	width:100px;
+	margin-top: 15px;
+	padding-top: 15px;
+	height:40px;
+	border-bottom: 2px #ddd solid;
+	color: #444;
+	margin-right: 2px;
+}
+
+#topics li {
+	float:left-horizontal;
+	display: inline-block;
+	width:200px;
+	margin-top: 15px;
+	padding-top: 15px;
+	height:40px;
+	border-bottom: 2px #ddd solid;
+	color: #444;
+	margin-right: 2px;
+}
+li:hover  {
+	color #444;
+	border-bottom-color: #777:
+}
+
+
+img {
+	display: block;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+left:0;
+top:0;
+
+}
+
+#header {
+	position: auto;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	margin-bottom: 10px;
+}
