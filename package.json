@@ -1,0 +1,19 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "description": "day3assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanmarieverba/day3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanmarieverba/day3/issues"
+  },
+  "homepage": "https://github.com/joanmarieverba/day3#readme"
+}

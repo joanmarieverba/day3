@@ -1,10 +1,20 @@
+html {
+	margin: 5%;
+}
+
+
 h4 {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+nav {
+	height: 100px;
+	margin-bottom: 100px;
+}
 
-.menu li {
-	float:left-horizontal;
+.menu > div {
+	float:left;
+	margin-left: 100px;
 	display: inline-block;
 	width:100px;
 	margin-top: 15px;
@@ -15,18 +25,10 @@ h4 {
 	margin-right: 2px;
 }
 
-#topics li {
-	float:left-horizontal;
-	display: inline-block;
-	width:200px;
-	margin-top: 15px;
-	padding-top: 15px;
-	height:40px;
-	border-bottom: 2px #ddd solid;
-	color: #444;
-	margin-right: 2px;
-}
-li:hover  {
+
+
+
+div:hover  {
 	color #444;
 	border-bottom-color: #777:
 }
@@ -48,4 +50,46 @@ top:0;
 	margin-top: -20px;
 	height: 60px;
 	margin-bottom: 10px;
+}
+
+
+
+article-summaries {
+background-color: magneta;
+width:90%;
+height: 500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+article-item {
+	display: inline-block;
+	width: 25%;
+	height: 500px;
+	border-right: 1px solid green;
+	border-bottom: 1px solid green;
+	border-top: 4px solid green;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+article-item > h4 {
+	font-size: 30px;
+}
+
+article-item:first-child {
+	border-left: 1px solid green;
+}
+
+
+article-item:nth-child(even) {
+	border-top: 4px solid red;
+}
+
+
+
+footer {
+	margin-left: 5%;
+	margin-top:100px;
 }
