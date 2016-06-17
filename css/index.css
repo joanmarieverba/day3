@@ -1,28 +1,59 @@
 html {
-	margin: 5%;
+	margin: 0 10px;
+  padding: 10px;
 }
 
-
+star {
+	font-size: 40px;
+	display: inline;
+}
 h4 {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+.logo > div {
+
+
+}
+
+top-item {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+}
+
+top-header {
+	position: absolute;
+	display: block;
+	top: 5%;
+	left: 5%;
+}
+
+web-title {
+	font-size:12;
+	font-family:sans-serif;
+
+}
+
+
+
 nav {
-	height: 100px;
-	margin-bottom: 100px;
+	height: 200px;
+	margin-bottom: 200px;
+	margin: auto;
+	width: 440px;
+  margin-top: 40px;
+
 }
 
 .menu > div {
 	float:left;
-	margin-left: 100px;
 	display: inline-block;
 	width:100px;
-	margin-top: 15px;
-	padding-top: 15px;
 	height:40px;
 	border-bottom: 2px #ddd solid;
 	color: #444;
-	margin-right: 2px;
 }
 
 
@@ -35,21 +66,15 @@ div:hover  {
 
 
 img {
-	display: block;
-	height: 300px;
-	width: 300px;
-	margin: auto;
-left:0;
-top:0;
-
+	/*display: block;
+	height: 60px;
+	width: 60px;
+	margin-left: 5%;*/
 }
 
-#header {
-	position: auto;
-	width: 97.5%;
-	margin-top: -20px;
-	height: 60px;
-	margin-bottom: 10px;
+blue {
+	float: left;
+	display: block;
 }
 
 
@@ -59,8 +84,11 @@ background-color: magneta;
 width:90%;
 height: 500px;
 display: block;
+/*center*/
 margin-left: auto;
 margin-right: auto;
+margin-top: 200px;
+vertical-align: top;
 }
 
 article-item {
@@ -72,6 +100,7 @@ article-item {
 	border-top: 4px solid green;
 	box-sizing: border-box;
 	padding: 30px;
+	vertical-align: top;
 }
 
 article-item > h4 {
